@@ -1,0 +1,49 @@
+name: Deploy GitHub Pages
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+jobs:
+  cv:
+    if: github.repository == 'JungW-S/jungw-s.github.io' && github.ref == 'refs/heads/main'
+    uses: ./.github/workflows/documents.yml
+
+  build:
+    needs: cv
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - name: Use the CV built from this commit
+        uses: actions/download-artifact@v8
+        with:
+          name: cv
+          path: documents
+      - name: Generate the static site
+        run: python3 scripts/build_site.py
+      - name: Package the site for Pages
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-24.04
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publish the reviewed site
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,195 @@
+{
+  "folding": {
+    "title": "Folding of cluster algebras",
+    "authors": "Woo-Seok Jung and Se-jin Oh",
+    "arxiv": "https://arxiv.org/abs/2611.17677",
+    "preprints": "{arxiv_id}, 2026.",
+    "documents": {
+      "entries": [
+        {
+          "section": "preprints",
+          "year": 2026
+        }
+      ]
+    }
+  },
+  "i-boxes": {
+    "title": "A Comparison of cluster algebra structures arising from i-boxes and Demazure weaves",
+    "authors": "JiSun Huh, Woo-Seok Jung, Myungho Kim, and Euiyong Park",
+    "arxiv": "https://arxiv.org/abs/2606.07493",
+    "preprints": "{arxiv_id}, 2026, submitted.",
+    "documents": {
+      "math": {
+        "i-boxes": "$i$-boxes"
+      },
+      "entries": [
+        {
+          "section": "preprints",
+          "year": 2026
+        }
+      ]
+    }
+  },
+  "thrall": {
+    "title": "Thrall's problem for two rows",
+    "authors": "JiSun Huh, Woo-Seok Jung, Jang Soo Kim, and Meesue Yoo",
+    "arxiv": "https://arxiv.org/abs/2605.17880",
+    "preprints": "{arxiv_id}, 2026, submitted.",
+    "documents": {
+      "entries": [
+        {
+          "section": "preprints",
+          "year": 2026,
+          "cv_status": "Submitted."
+        }
+      ]
+    }
+  },
+  "schur": {
+    "title": "Representation Theory of 0-Schur Algebras and Related Categories",
+    "authors": "Woo-Seok Jung and Young-Tak Oh",
+    "arxiv": "https://arxiv.org/abs/2509.26194",
+    "publications": "Journal of Algebra (accepted). {arxiv_id}",
+    "documents": {
+      "title": "Representation theory of 0-Schur algebras and related categories",
+      "math": {
+        "0-Schur": "$0$-Schur"
+      },
+      "entries": [
+        {
+          "section": "accepted",
+          "citation_tex": "\\emph{Journal of Algebra}, accepted for publication.",
+          "print_arxiv": true,
+          "cv_arxiv_year": 2025
+        }
+      ]
+    }
+  },
+  "twist": {
+    "title": "Crystals and quantum twist automorphisms",
+    "authors": "Woo-Seok Jung and Euiyong Park",
+    "arxiv": "https://arxiv.org/abs/2507.01306",
+    "preprints": "{arxiv_id}, 2025, submitted.",
+    "documents": {
+      "entries": [
+        {
+          "section": "preprints",
+          "year": 2025,
+          "cv_status": "Submitted."
+        }
+      ]
+    }
+  },
+  "qsym": {
+    "title": "Discovering product and coproduct Rules for Bases of QSym_F through Supercharacters",
+    "authors": "Woo-Seok Jung and Young-Tak Oh",
+    "arxiv": "https://arxiv.org/abs/2311.08917",
+    "preprints": "{arxiv_id}, 2023, submitted.",
+    "documents": {
+      "title": "Discovering product and coproduct rules for bases of QSym_F through supercharacters",
+      "math": {
+        "QSym_F": "$\\mathsf{QSym}_{F}$"
+      },
+      "entries": [
+        {
+          "section": "preprints",
+          "year": 2023,
+          "cv_status": "Submitted (Ph.D. thesis)."
+        }
+      ]
+    }
+  },
+  "induction": {
+    "title": "Induction and restriction of two variable Hecke algebras",
+    "authors": "Woo-Seok Jung and Young-Tak Oh",
+    "arxiv": "https://arxiv.org/abs/2211.00211",
+    "preprints": "{arxiv_id}, 2022.",
+    "documents": {
+      "title": "Induction and restriction of two-variable Hecke algebras",
+      "entries": [
+        {
+          "section": "preprints",
+          "year": 2022,
+          "cv_status": "Submitted."
+        }
+      ]
+    }
+  },
+  "bruhat": {
+    "title": "Weak Bruhat interval modules of the 0-Hecke algebra",
+    "authors": "Woo-Seok Jung, Young-Hun Kim, So-Yeon Lee, and Young-Tak Oh",
+    "arxiv": "https://arxiv.org/abs/2105.14169",
+    "journal": "https://link.springer.com/article/10.1007/s00209-022-03025-4",
+    "publications": "Mathematische Zeitschrift, vol. 301, pp. 3755–3786, 2022. {journal}, {arxiv}",
+    "documents": {
+      "math": {
+        "0-Hecke": "$0$-Hecke"
+      },
+      "entries": [
+        {
+          "section": "accepted",
+          "citation_tex": "\\emph{Mathematische Zeitschrift} \\textbf{301} (2022), 3755--3786."
+        }
+      ]
+    }
+  },
+  "dualities": {
+    "title": "Dualities and reciprocities on graphs on surfaces",
+    "authors": "Woo-Seok Jung and Jaeseong Oh",
+    "arxiv": "https://arxiv.org/abs/2005.01590",
+    "journal": "https://www.sciencedirect.com/science/article/pii/S0012365X22002977",
+    "publications": "Discrete Mathematics, vol. 345,  Issue 12, 2022. {journal}, {arxiv}",
+    "documents": {
+      "entries": [
+        {
+          "section": "accepted",
+          "citation_tex": "\\emph{Discrete Mathematics} \\textbf{345} (2022), no.~12."
+        }
+      ]
+    }
+  },
+  "acyclic": {
+    "title": "Acyclic orientation polynomials and the sink theorem for chromatic symmetric functions",
+    "authors": "Byung-Hak Hwang, Woo-Seok Jung, Kang-Ju Lee, Jaeseong Oh, Sang-Hoon Yu",
+    "arxiv": "https://arxiv.org/abs/1910.10920",
+    "journal": "https://www.sciencedirect.com/science/article/pii/S009589562100006X",
+    "publications": "Journal of Combinatorial Theory Series B, vol. 149, pp. 52-75, 2021. {journal}, {arxiv}",
+    "documents": {
+      "entries": [
+        {
+          "section": "accepted",
+          "citation_tex": "\\emph{Journal of Combinatorial Theory, Series B} \\textbf{149} (2021), 52--75."
+        },
+        {
+          "section": "proceedings",
+          "citation_tex": "in: \\emph{Proceedings of FPSAC 2020} (Extended abstract)."
+        }
+      ]
+    }
+  },
+  "magic": {
+    "title": "The dimension of magic squares over fields of characteristics two and three",
+    "authors": "Woo-Seok Jung, Jon-Lark Kim, Yeonho Kim, and Kisun Lee",
+    "journal": "https://www.sciencedirect.com/science/article/pii/S0024379515000609",
+    "publications": "Linear Algebra and its Applications, vol. 472, pp. 118-134, 2015. {journal}",
+    "documents": {
+      "entries": [
+        {
+          "section": "accepted",
+          "citation_tex": "\\emph{Linear Algebra and its Applications} \\textbf{472} (2015), 118--134."
+        }
+      ]
+    }
+  },
+  "similarity": {
+    "title": "Similarity maps and quantum twists on localized crystals",
+    "documents": {
+      "entries": [
+        {
+          "section": "preparation",
+          "year": 2026
+        }
+      ]
+    }
+  }
+}

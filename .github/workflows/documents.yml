@@ -1,0 +1,36 @@
+name: Build CV
+
+on:
+  push:
+    paths:
+      - 'documents/**'
+      - 'data/publications.json'
+      - 'scripts/build-documents.sh'
+      - 'scripts/render-publications.py'
+      - '.github/workflows/documents.yml'
+  workflow_dispatch:
+  workflow_call:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - name: Install LaTeX
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends latexmk texlive-latex-extra texlive-fonts-recommended lmodern
+      - name: Compile the CV
+        run: ./scripts/build-documents.sh "$RUNNER_TEMP/pdfs"
+      - name: Save the CV for download
+        uses: actions/upload-artifact@v7
+        with:
+          name: cv
+          path: ${{ runner.temp }}/pdfs/CV_Woo-SeokJung.pdf
+          if-no-files-found: error
+          overwrite: true

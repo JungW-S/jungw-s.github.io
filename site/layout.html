@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="$description">
+  <title>$title</title>
+  <link rel="canonical" href="$canonical">
+  <link rel="stylesheet" href="${root}style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to main content</a>
+  <div class="page">
+    <header class="masthead">
+      $identity
+      <nav aria-label="Main navigation">
+        <a href="${root}index.html#preprints">Preprints</a>
+        <a href="${root}index.html#publications">Publications</a>
+        <a href="${root}visualizations/index.html" $visual_current>Visualizations</a>
+      </nav>
+    </header>
+    <main id="main">
+      $body
+    </main>
+  </div>
+</body>
+</html>
